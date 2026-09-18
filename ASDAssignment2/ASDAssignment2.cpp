@@ -23,9 +23,9 @@ int main() {
 #endif
 
 	#if PRE_RELEASE
-		std::cout << "(Pre-relase branch)";
+		std::cout << "(Pre-relase branch)" << std::endl;
 	#else
-		std::cout << "(Main branch)";
+		std::cout << "(Main branch)" << std::endl;
 	#endif
 
 	if (!file) {
