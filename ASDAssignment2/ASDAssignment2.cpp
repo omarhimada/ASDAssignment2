@@ -69,9 +69,9 @@ int main() {
 
 	for (Student student : students) {
 #if PRE_RELEASE
-		std::cout << student.firstName << ", " << student.lastName << ": " << student.email;
+		std::cout << student.firstName << ", " << student.lastName << ": " << student.email << std::endl;
 #else
-		std::cout << student.firstName << ", " << student.lastName;
+		std::cout << student.firstName << ", " << student.lastName << std::endl;
 #endif
 	}
 }
