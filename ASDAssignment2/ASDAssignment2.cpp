@@ -1,3 +1,5 @@
+#define BRANCH "main"
+
 #include <fstream>
 #include <sstream>
 #include <string>
