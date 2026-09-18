@@ -69,9 +69,13 @@ int main() {
 
 	for (Student student : students) {
 #if PRE_RELEASE
+#ifdef _DEBUG
 		std::cout << student.firstName << ", " << student.lastName << ": " << student.email << std::endl;
+#endif
 #else
+#ifdef _DEBUG
 		std::cout << student.firstName << ", " << student.lastName << std::endl;
+#endif
 #endif
 	}
 }
